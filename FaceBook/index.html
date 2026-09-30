@@ -10,17 +10,20 @@
     
     <h2>FaceBook</h2>
 
-    <form>
+    <form onsubmit = "validateForm(event)">
 
         <h3>Log in to Facebook</h3>
 
-        <input type="text" placeholder="Enter username" required>
-        <input type="password" placeholder="password" required>
+        <input type="text" placeholder="username" name="username">
+        <input type="password" placeholder="password" name="password">
+        <p id="message"></p>
         <input type="submit" value="Log in" class = "login">
 
         <a href="#" class="forgot">Forgotten password?</a>
 
     </form>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
