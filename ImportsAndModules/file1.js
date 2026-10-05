@@ -1,4 +1,4 @@
-import { add } from './file2.js'
+import something from './file2.js' // present folder file
 import { add, sub } from './file2.js'
 
 console.log(something(2,4))
